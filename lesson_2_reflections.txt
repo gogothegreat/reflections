@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-   A new hidden .git directory is created inside the repo. It is required for 
+   A new hidden .git directory is created inside the repo. It is required for
    saving metadata in there.
 
 How is the staging area different from the working directory and the repository?
@@ -8,16 +8,26 @@ What value do you think it offers?
 
    Staging area can contain some or all files from the working directory. The files
    stay there until next 'commit' command is issued. Staging area enables to select
-   which changes to commit in order to make fewer commits that are logically 
+   which changes to commit in order to make fewer commits that are logically
    connected and bound together.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+   I can use the staging area to put in it only files affected by one logical change
+   that I can then commit in one 'batch'.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+   When creating some major changes in code or an experimental new version of it.
+   A new branch will help by leaving the master branch unchanged until changes
+   are satisfactory.
+
 How do the diagrams help you visualize the branch structure?
+
+   By showing where branches are connected to the master branch and what commits
+   are unreachable. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
