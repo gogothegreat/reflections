@@ -8,3 +8,7 @@ one instead of another?
     I would use "branch" for adding a new feat or experimenting on a master branch,
     "clone" for copying locally a repo from GitHub, and "fork" for copying a
     repo from someone else's GitHub account on my own GitHub account.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    The ability to keep track if local and remote branches are in sync.
+    
