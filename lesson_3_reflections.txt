@@ -14,3 +14,9 @@ one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
     The ability to keep track if local and remote branches are in sync.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+    I would be forced to collaborate by working on the same site with other team
+    members, or by sharing files via e-mail. It would be A LOT harder!
+    
